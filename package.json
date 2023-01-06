@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Marcolux/web-template/issues"
   },
-  "homepage": "https://github.com/Marcolux/web-template#readme"
+  "homepage": "https://github.com/Marcolux/web-template#readme",
+  "dependencies": {
+    "typescript": "^4.9.4"
+  }
 }
