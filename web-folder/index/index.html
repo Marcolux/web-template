@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-100">
 
 <head>
     <meta charset="UTF-8">
@@ -18,18 +18,62 @@
     <title>Website Title</title>
 </head>
 
-<body>
 
-    <h1 class="ml-2 mt-3 pl-1 hello ">Hello</h1>
-    <button type="button " class="btn btn-primary ml-4 ">Primary</button>
-    <i class="bi bi-1-circle-fill "></i>
-    <button type="submit " class="btn btn-primary "><span class="bi-search "></span> Search</button>
-    <button type="submit " class="btn btn-secondary "><span class="bi-search "></span> Search</button>
+<body class="d-flex flex-column justify-content-between h-100">
+    <header>
+        <nav class="mt-2">
 
 
+            <ul class="glossymenu">
+                <li class="current"><a href="#"><b>Home</b></a></li>
+                <li><a href="#"><b>CSS</b></a></li>
+                <li><a href="#"><b>Forums</b></a></li>
+                <li><a href="#"><b>Webmaster Tools</b></a></li>
+                <li><a href="#"><b>JavaScript</b></a></li>
+                <li><a href="#"><b>Gallery</b></a></li>
+            </ul>
+
+
+        </nav>
+
+        <nav class="navContainerExt mt-3">
+            <div class="d-flex justify-content-center navContainer">
+                <div class="divRadios ml-1">
+                    <input class="inputNav" type="radio" name="NavSelection" id="selection1" hidden>
+                    <label class="labelNav h-100 px-2 mb-0 mr-4" for='selection1'>Massive Label </label>
+                </div>
+                <div class="divRadios ml-1">
+                    <input class="inputNav" type="radio" name="NavSelection" id="selection2" hidden>
+                    <label class="labelNav h-100 px-2 mb-0 mr-4" for='selection2'> Label </label>
+                </div>
+                <div class="divRadios ml-1">
+                    <input class="inputNav" type="radio" name="NavSelection" id="selection3" hidden>
+                    <label class="labelNav h-100 px-2 mb-0 mr-4" for='selection3'> Label </label>
+                </div>
+                <div class="divRadios ml-1">
+                    <input class="inputNav" type="radio" name="NavSelection" id="selection4" hidden>
+                    <label class="labelNav h-100 px-2 mb-0 mr-4" for='selection4'> Label </label>
+                </div>
+            </div>
+            <div class="littleBar"></div>
+        </nav>
+    </header>
+
+    <section>
+        <h1 class="ml-2 mt-3 pl-1 hello ">Hello</h1>
+        <button type="button " class="btn btn-primary ml-4 ">Primary</button>
+        <i class="bi bi-1-circle-fill "></i>
+        <button type="submit " class="btn btn-primary "><span class="bi-search "></span> Search</button>
+        <button type="submit " class="btn btn-secondary "><span class="bi-search "></span> Search</button>
+    </section>
 
 
 
+
+
+    <footer>
+        <h4>Footer</h4>
+    </footer>
 
     <!-- Bootstrap -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous ">
@@ -41,5 +85,6 @@
     <script defer type="text/javascript " src=../script/main.js></script>
 
 </body>
+
 
 </html>
